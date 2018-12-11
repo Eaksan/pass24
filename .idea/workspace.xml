@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3313de88-85e5-4367-8f4c-8a7923f3a24c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/scripts.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.min.js" afterDir="false" />
@@ -9,19 +10,25 @@
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-673">
-              <caret line="367" column="52" lean-forward="true" selection-start-line="367" selection-start-column="52" selection-end-line="367" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="101" column="47" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -29,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="5745" column="24" selection-start-line="5745" selection-start-column="24" selection-end-line="5745" selection-end-column="24" />
+            <state relative-caret-position="237">
+              <caret line="4287" column="20" selection-start-line="4287" selection-start-column="20" selection-end-line="4287" selection-end-column="20" />
               <folding>
                 <element signature="e#9021#9256#2" expanded="true" />
               </folding>
@@ -39,10 +46,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/img/icons/video-play-icon.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/scripts.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="148" column="33" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
+            <state relative-caret-position="220">
+              <caret line="620" column="12" lean-forward="true" selection-start-line="620" selection-start-column="12" selection-end-line="620" selection-end-column="12" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -66,13 +78,16 @@
       <find>linear-gradient(114deg, #0c7aff, #0561d1)</find>
       <find>.map</find>
       <find>collapse.js.map</find>
-      <find>js.map</find>
       <find>#1483f7</find>
       <find>modal-heade</find>
       <find>a:hover</find>
       <find>.fancybox-close-small</find>
       <find>.modal-header</find>
       <find>faq-box h4</find>
+      <find>intro-img2</find>
+      <find>js.map</find>
+      <find>window.scree</find>
+      <find>.intro-img2</find>
       <find>читать</find>
     </findStrings>
     <replaceStrings>
@@ -86,6 +101,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/img/icons/video-play-icon.svg" />
         <option value="$PROJECT_DIR$/js/scripts.min.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.min.css" />
@@ -118,6 +134,17 @@
             <path>
               <item name="ress24-modal" type="b2602c69:ProjectViewProjectNode" />
               <item name="ress24-modal" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ress24-modal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ress24-modal" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="icons" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ress24-modal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ress24-modal" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -129,7 +156,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
@@ -158,12 +185,20 @@
       <updated>1543997025758</updated>
       <workItem from="1543997027029" duration="2081000" />
       <workItem from="1544556124236" duration="484000" />
-      <workItem from="1544556632691" duration="3224000" />
+      <workItem from="1544556632691" duration="7269000" />
     </task>
+    <task id="LOCAL-00001" summary="[11-12-2018] Review modal">
+      <created>1544560149638</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544560149638</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5789000" />
+    <option name="totallyTimeSpent" value="9834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2873" y="0" width="974" height="1047" extended-state="0" />
@@ -180,8 +215,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32932165" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32932165" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -191,11 +226,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[11-12-2018] Review modal" />
+    <option name="LAST_COMMIT_MESSAGE" value="[11-12-2018] Review modal" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/img/icons/video-play-icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/scripts.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="148" column="33" selection-start-line="148" selection-start-column="33" selection-end-line="148" selection-end-column="33" />
+        <state relative-caret-position="220">
+          <caret line="620" column="12" lean-forward="true" selection-start-line="620" selection-start-column="12" selection-end-line="620" selection-end-column="12" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -204,15 +246,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-673">
-          <caret line="367" column="52" lean-forward="true" selection-start-line="367" selection-start-column="52" selection-end-line="367" selection-end-column="52" />
+        <state relative-caret-position="221">
+          <caret line="101" column="47" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="5745" column="24" selection-start-line="5745" selection-start-column="24" selection-end-line="5745" selection-end-column="24" />
+        <state relative-caret-position="237">
+          <caret line="4287" column="20" selection-start-line="4287" selection-start-column="20" selection-end-line="4287" selection-end-column="20" />
           <folding>
             <element signature="e#9021#9256#2" expanded="true" />
           </folding>
