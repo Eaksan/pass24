@@ -999,14 +999,14 @@ sup {
 }
 
 a {
-    color: #0c7aff;
+    color: #FF4361;
     text-decoration: none;
     background-color: transparent;
     -webkit-text-decoration-skip: objects
 }
 
 a:hover {
-    color: #0056bf;
+    color: #d22742;
     text-decoration: underline
 }
 
@@ -4585,7 +4585,7 @@ header a:hover {
     font-size: 16px;
     font-weight: 700;
     line-height: 1.05;
-    color: #0c7aff;
+    color: #FF4361;
     position: relative;
     margin-bottom: 39px
 }
@@ -4598,7 +4598,7 @@ header a:hover {
     height: 9px;
     -webkit-border-radius: 60px;
     border-radius: 60px;
-    background-color: #0c7aff
+    background-color: #FF4361
 }
 
 .create-box1 {
@@ -4717,7 +4717,7 @@ header a:hover {
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
-    color: #1483f7;
+    color: #FF4361;
     margin-bottom: 26px;
     display: inline-block
 }
@@ -4797,7 +4797,7 @@ header a:hover {
 }
 
 .faq-box[aria-expanded=true] .faq-answer-button {
-    background-color: #0c7aff
+    background-color: #FF4361
 }
 
 .faq-box[aria-expanded=true] .faq-answer-button:after {
@@ -4805,6 +4805,7 @@ header a:hover {
 }
 
 .faq-box h4 {
+    min-height: 38px;
     font-size: 18px;
     font-weight: 300;
     line-height: 1.1;
@@ -4826,7 +4827,7 @@ header a:hover {
     height: 50px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
-    border: 1px solid #0c7aff;
+    border: 1px solid #FF4361;
     background-color: #fff;
     -webkit-transition: .3s;
     -o-transition: .3s;
@@ -4836,7 +4837,7 @@ header a:hover {
 .faq-box .faq-answer-button:after, .faq-box .faq-answer-button:before {
     content: '';
     position: absolute;
-    background-color: #0c7aff;
+    background-color: #FF4361;
     top: 50%;
     left: 50%;
     -webkit-transition: .3s;
@@ -4979,15 +4980,25 @@ footer .header-nav {
 }
 
 .modal {
-    display: none
-}
-
-.modal-form {
+    display: none;
     padding: 0;
     max-width: 600px;
     overflow: visible;
     -webkit-border-radius: 3px;
     border-radius: 3px
+}
+
+.modal .fancybox-close-small {
+    left: -webkit-calc(100% + 8px);
+    left: calc(100% + 8px);
+    right: auto;
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #FF4361;
+    color: #fff;
+    opacity: 1
 }
 
 .modal-form h3 {
@@ -5030,30 +5041,90 @@ footer .header-nav {
     padding: 28px 30px 27px
 }
 
-.modal-form .fancybox-close-small {
-    left: -webkit-calc(100% + 8px);
-    left: calc(100% + 8px);
-    right: auto;
-    width: 60px;
-    height: 60px;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    background-color: #0665d9;
-    color: #fff;
-    opacity: 1
-}
-
 .modal-header {
-    background-image: -webkit-linear-gradient(336deg, #0c7aff, #0561d1);
-    background-image: -o-linear-gradient(336deg, #0c7aff, #0561d1);
-    background-image: linear-gradient(114deg, #0c7aff, #0561d1);
+    background-image: -webkit-linear-gradient(298deg, #ff416c, #ff4b2b);
+    background-image: -o-linear-gradient(298deg, #ff416c, #ff4b2b);
+    background-image: linear-gradient(298deg, #ff416c, #ff4b2b);
     text-align: center;
     padding: 65px 10px;
-    color: #fff
+    color: #fff;
+    -webkit-border-radius: 3px 3px 0 0;
+    -moz-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
 }
 
 .modal-body {
     padding: 50px 50px
+}
+
+.modal-review {
+    text-align: center;
+}
+
+.modal-review h3 {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+.modal-review h4, .modal-review p {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 18px;
+    font-weight: 300;
+}
+
+.modal-review h4 {
+    margin-bottom: 18px;
+}
+
+.modal-review p {
+    margin-bottom: 40px;
+}
+
+.modal-review .modal-header {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.modal-review-img {
+    width: 100%;
+    height: 263px
+}
+
+.modal-review-img img {
+    width: 100%;
+    height: 263px;
+    object-fit: cover
+}
+
+.modal-review-links {
+    position: absolute;
+    bottom: 20px;
+    right: 18px;
+}
+
+.modal-review-links a {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-right: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-review-links a:last-child {
+    margin-right: 0;
+}
+
+.modal-review .modal-body {
+    padding: 32px 32px 0;
 }
 
 @media (max-width: 1679.98px) {
@@ -5586,7 +5657,7 @@ footer .header-nav {
     }
 
     .faq-box .faq-answer-button {
-        top: 33px
+        top: 24px
     }
 
     .subscribe p {
@@ -5644,7 +5715,7 @@ footer .header-nav {
         padding: 15px
     }
 
-    .modal-form .fancybox-close-small {
+    .modal .fancybox-close-small {
         left: auto;
         right: 0;
         height: 40px;
@@ -5653,12 +5724,30 @@ footer .header-nav {
         background-color: transparent
     }
 
+    .modal .fancybox-close-small {
+        background-color: #FF4361;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+
     .modal-header {
         padding: 30px 10px
     }
 
     .modal-body {
         padding: 20px
+    }
+}
+
+@media (max-width: 497.98px) {
+    .faq-box {
+        padding: 30px 25px;
+        background: #fff;
+    }
+
+    .faq-box h4 {
+        padding: 0 0 0 75px;
     }
 }
 
